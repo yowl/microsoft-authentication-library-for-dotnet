@@ -30,6 +30,10 @@
     <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
   </PropertyGroup>
   
+  <PropertyGroup Label="Globals">
+    <WebView2DispatchAdapterNamespace>Cms.Microsoft.Identity.Client.Desktop</WebView2DispatchAdapterNamespace>
+  </PropertyGroup>
+  
   <PropertyGroup Condition="'$(TargetFramework)' == '$(TargetFrameworkNetCore)'">
     <DefineConstants>$(DefineConstants);NET_CORE</DefineConstants>
   </PropertyGroup>
